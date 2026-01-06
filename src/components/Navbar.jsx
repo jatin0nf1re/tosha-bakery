@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import toshaLogo from '/tosha-logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -45,7 +46,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="/tosha-logo.png" alt="Tosha Bakery" className="logo-image" />
+          <img src={toshaLogo} alt="Tosha Bakery" className="logo-image" />
         </Link>
 
         <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
