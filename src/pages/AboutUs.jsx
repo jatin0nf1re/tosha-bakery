@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaWhatsapp } from 'react-icons/fa';
+import founderImage from '../assets/founder.jpg';
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -27,7 +28,7 @@ const AboutUs = () => {
         <div className="founder-container">
           <div className="founder-image">
             <img
-              src="src/assets/founder.jpg"
+              src={founderImage}
               alt="Founder of Tosha Bakery"
             />
             <div className="founder-quote">

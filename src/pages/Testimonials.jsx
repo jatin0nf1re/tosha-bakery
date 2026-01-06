@@ -1,5 +1,11 @@
 import { useState } from 'react';
 import { FaStar, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import customerPhoto1 from '../assets/customer-photos/1.JPEG';
+import customerPhoto2 from '../assets/customer-photos/2.JPG';
+import customerPhoto3 from '../assets/customer-photos/3.jpg';
+import customerPhoto4 from '../assets/customer-photos/4.jpg';
+import customerPhoto5 from '../assets/customer-photos/5.jpg';
+import customerPhoto6 from '../assets/customer-photos/6.jpg';
 import './Testimonials.css';
 
 const Testimonials = () => {
@@ -37,32 +43,32 @@ const Testimonials = () => {
   const customerPhotos = [
     {
       id: 1,
-      image: "src/assets/customer-photos/1.JPEG",
+      image: customerPhoto1,
       caption: "Birthday celebration cake"
     },
     {
       id: 2,
-      image: "src/assets/customer-photos/2.JPG",
+      image: customerPhoto2,
       caption: "Anniversary special"
     },
     {
       id: 3,
-      image: "src/assets/customer-photos/3.jpg",
+      image: customerPhoto3,
       caption: "Cupcakes for office party"
     },
     {
       id: 4,
-      image: "src/assets/customer-photos/4.jpg",
+      image: customerPhoto4,
       caption: "Wedding dessert table"
     },
     {
       id: 5,
-      image: "src/assets/customer-photos/5.jpg",
+      image: customerPhoto5,
       caption: "Brownie box"
     },
     {
       id: 6,
-      image: "src/assets/customer-photos/6.jpg",
+      image: customerPhoto6,
       caption: "Custom cake design"
     }
   ];
