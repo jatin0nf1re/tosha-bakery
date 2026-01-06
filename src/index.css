@@ -1,0 +1,64 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  color: #2c1810;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Root variables - Tosha Bakery Pastel Theme */
+:root {
+  /* Main Brand Colors from Logo */
+  --primary-green: #4a5f54;
+  --primary-green-dark: #3a4d44;
+  --pastel-green: #a8c5b8;
+  --pastel-green-light: #d0e3d9;
+  --pastel-pink: #e7bfb3;
+  --pastel-pink-light: #f2d9d0;
+  --accent-cream: #f9f6f3;
+  
+  /* Supporting Colors */
+  --text-dark: #2c3e3a;
+  --text-gray: #7a8a85;
+  --border-light: #e5ebe8;
+  --white: #ffffff;
+  
+  /* Semantic Colors */
+  --success: #a8c5b8;
+  --hover-green: #8fb5a4;
+  --hover-pink: #d9a89a;
+  
+  /* Layout */
+  --navbar-height: 82px;
+}
+
+/* Responsive navbar height adjustment */
+@media (max-width: 768px) {
+  :root {
+    --navbar-height: 70px;
+  }
+}
